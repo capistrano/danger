@@ -34,6 +34,7 @@ in a production environment as "proof" that the PR works as intended. This will
 make it much more likely that your changes are accepted.
 
 Thanks again for taking the time to improve Capistrano! 😃
+
 MARKDOWN
   end
 end
