@@ -25,15 +25,7 @@ if has_lib_changes && !has_test_changes
          :sticky => false)
   else
     markdown <<-MARKDOWN
-Thanks for the PR! This project lacks automated tests, which makes reviewing and
-approving PRs somewhat difficult. Please make sure that your contribution has
-not broken backwards compatibility or introduced any risky changes.
-
-If you have not already done so, consider including output of your code running
-in a production environment as "proof" that the PR works as intended. This will
-make it much more likely that your changes are accepted.
-
-Thanks again for taking the time to improve Capistrano! 😃
+Thanks for the PR! This project lacks automated tests, which makes reviewing and approving PRs somewhat difficult. Please make sure that your contribution has not broken backwards compatibility or introduced any risky changes.
 
 MARKDOWN
   end
